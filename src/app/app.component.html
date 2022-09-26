@@ -1,0 +1,36 @@
+<div fxLayout="column">
+  <div class="image-container">
+    <img [src]="imageUrl" alt="">
+  </div>
+  
+  <div class="info-container">
+    <div fxLayout="column" fxLayoutAlign="start start">
+      <div class="bs-imagedetails-image" fxLayoutAlign="start center" fxLayoutGap="10px">
+        <div class="smx-avatar smx-avatar--m">
+          <img class="smx-avatar__image" [src]="avatarUrl" alt="">
+        </div>
+        <div fxLayout="column">
+          <div fxLayout="row" fxLayoutGap="5px">
+            <div class="name">John</div>
+            <div class="submitAt">
+              at JAN 03, 2022
+            </div>
+          </div>
+        </div>
+        <div class="fill-space"></div>
+        <div class="slideCount">2 <span>of</span> 22</div>
+      </div>
+      <div fxLayout="row" class="bs-imagedetails-topic" fxLayoutGap="3px">
+        <div class="name">Topic</div>
+        <div class="smx-text--s topicName">Topic 1</div>
+      </div>
+      <div fxLayout="row" class="bs-imagedetails-question" fxLayoutAlign="start center" fxLayoutGap="3px">
+        <div class="name">Question</div>
+        <div class="smx-text--s questionName">Quest 1</div>
+        <!-- <mat-divider class="divider"></mat-divider> -->
+        <div class="smx-text--s questionBody">Check out this new question</div>
+      </div>
+      
+    </div>
+  </div>
+</div>
